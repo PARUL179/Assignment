@@ -32,6 +32,12 @@ Make sure you have the following installed:
    ```bash
    git clone https://github.com/your-username/saas-onboarding.git
 
+## How to run the Project
+- Git clone the project with ``` git clone https://github.com/Laxmika1401/RESTAPI_task.git```
+- Create your virtualenv with `Pipenv` or `virtualenv` and activate it.
+- Install Requirements.txt using this command: `pip install -r requirements.txt`
+- Run the Application using this command: `python manage.py runserver` 
+- API Documentation: `http://localhost:8000/docs/`
 
 ## API Endpoints
 
@@ -103,10 +109,5 @@ curl -X PUT -d "services=[...]" http://example.com/edit-organization-services/ac
 curl -X POST -d "service_name=new-service&..." http://example.com/add-service/
 
 
-## How to run the Project
-- Git clone the project with ``` git clone https://github.com/Laxmika1401/RESTAPI_task.git```
-- Create your virtualenv with `Pipenv` or `virtualenv` and activate it.
-- Install Requirements.txt using this command: `pip install -r requirements.txt`
-- Run the Application using this command: `python manage.py runserver` 
-- API Documentation: `http://localhost:8000/docs/`
+
 
