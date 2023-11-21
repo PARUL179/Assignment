@@ -2,7 +2,7 @@ from django.db import models
 
 class Service(models.Model):
     service_id = models.AutoField(primary_key=True)
-    service_name = models.TextField()
+    service_name = models.TextField(unique=True)
 
 class Organization(models.Model):
     org_id = models.AutoField(primary_key=True)
