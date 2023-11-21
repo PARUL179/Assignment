@@ -109,7 +109,10 @@ curl -X PUT -d "services=[...]" http://example.com/edit-organization-services/ac
 curl -X POST -d "service_name=new-service&..." http://example.com/add-service/
 
 ## database design:
-![alt text](https://github.com/PARUL179/Assignment/blob/main/databasedesign.png?raw=true)
+
+Organisation table and service table is in many to many relation shipt with org_id and service_id.
+
+Please find the database diagram in databasedesign.png
 
 
 
