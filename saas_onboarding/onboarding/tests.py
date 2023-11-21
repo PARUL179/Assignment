@@ -53,7 +53,6 @@ class OnboardingGetAPITest(TestCase):
             'service': [1]
         }
 
-        print(organization_data,api_url)
         # Make a POST request to the API to create the organization
         response = self.client.post(api_url, organization_data, format='json')
 
