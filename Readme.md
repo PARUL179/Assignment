@@ -33,7 +33,7 @@ Make sure you have the following installed:
    git clone https://github.com/your-username/saas-onboarding.git
 
 ## How to run the Project
-- Git clone the project with ``` git clone https://github.com/Laxmika1401/RESTAPI_task.git```
+- Git clone the project with ``` git clone https://github.com/PARUL179/Assignment.git```
 - Create your virtualenv with `Pipenv` or `virtualenv` and activate it.
 - Install Requirements.txt using this command: `pip install -r requirements.txt`
 - Run the Application using this command: `python manage.py runserver` 
