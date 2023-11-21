@@ -109,7 +109,7 @@ curl -X PUT -d "services=[...]" http://example.com/edit-organization-services/ac
 curl -X POST -d "service_name=new-service&..." http://example.com/add-service/
 
 ## database design:
-![databasedesign](https://github.com/PARUL179/Assignment/assets/25338891/d20b0815-7a24-4650-9075-82326f771a1d)
+![alt text](https://github.com/PARUL179/Assignment/blob/main/databasedesign.png?raw=true)
 
 
 
